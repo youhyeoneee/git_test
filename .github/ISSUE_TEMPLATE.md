@@ -1,8 +1,9 @@
-Fixes # issue_number
+### 이슈 요약
+----------------
+### 체크리스트 
+----------------
+- [] 없음 
 
-Changes proposed in this pull request:
--
--
--
-
-@youhyeoneee
+### 일정/기타 문의
+----------------
+- [] 없음  
