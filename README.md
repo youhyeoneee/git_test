@@ -5,6 +5,8 @@
 ## 1. Fork
 
 + 타겟 프로젝트의 저장소를 자신의 저장소로 Fork
+![1](./1.png)
+![2](./2.png)
 
 ## 2. clone, remote 설정
 
@@ -34,7 +36,7 @@ origin  https://github.com/youhyeoneee/git_test.git (push)
 
 ## 3. branch 생성 
 
-+ 자신의 로컬 컴퓨터에서 코드를 추가하는 작업은 branch를 만들어서 진행한다ㅣ 
++ 자신의 로컬 컴퓨터에서 코드를 추가하는 작업은 branch를 만들어서 진행한다.
 
 ```
 # youhyeon 이라는 이름의 branch를 생성한다.
@@ -61,6 +63,7 @@ $ git push origin youhyeon
 ## 5. Pull Request 생성
 
 + push 완료 후 본인 계정의 github 저장소에 들어오면 **Compare & pull request** 버튼이 활성화 되어있다.
+![3](./3.png)
 
 + 해당 버튼을 선택하여 메시지를 작성하고 PR을 생성한다. 
 
