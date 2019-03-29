@@ -47,3 +47,42 @@ $ git branch
 * youhyeon
 
 ```
+
+## 4. 수정 작업 후 add, commit, push
+
++ 수정 사항을 add, commit, push를 통해서 자신의 guthub repository(origin)에 반영한다.
+
++ **주의사항** puch 진행시에 branch 이름을 명시해주어야 한다.
+```
+# youhyeon 브랜치의 수정 내역을 origin으로 푸시한다.
+$ git push origin youhyeon
+``` 
+
+## 5. Pull Request 생성
+
++ push 완료 후 본인 계정의 github 저장소에 들어오면 **Compare & pull request** 버튼이 활성화 되어있다.
+
++ 해당 버튼을 선택하여 메시지를 작성하고 PR을 생성한다. 
+
+## 6. 코드리뷰, Merge Pull Request
+
++ PR을 받은 원본 저장소 관리자는 코드 변경 내역을 확인하고 Merge 여부를 결정한다.
+
+## 7. Merge 이후 동기화 및 branch 삭제
+
++ 원본 저장소에 Merge가 완료되면 로컬 코드와 원본 저장소의 코드를 동기화한다. 
+
++ 작업하던 로컬의 branch를 삭제한다. 
+
+```
+#코드 동기화
+$ git pull hyeong
+
+#브랜치 삭제 
+$ git branch -d youhyeon
+```
++ 나중에 추가로 작업할 일이 있다면 **git pull hyeong(remote 별명)** 명령을 통해 
+  원본 저장소와 동기화를 진행하고 3~7을 반복한다. 
+
+
+## 출처 : https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
